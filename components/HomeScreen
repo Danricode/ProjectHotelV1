@@ -1,0 +1,24 @@
+function HomeScreen({ navigation }) {
+  return (
+    <View style={styles.container}>
+      <Image style={styles.tinyLogo} source={require("./assets/logo.png")} />
+      <Image source={require("./assets/rw.png")}/>
+      <Text style={styles.title}>Your destination awaits</Text>
+      <Text style={styles.text}>
+        With 35 years in the business, over 142 destinations and parterships
+        with the best hotels, restaurants and clubs in each one of them, we are
+        equipped to provide you with the best travel experience. The process is
+        as simple as it gets, tell us the trip of your dreams and our team will
+        make it come true and assist you every step of the way. Ready whenever
+        you are.
+      </Text>
+
+      <Button
+        onPress={() => navigation.navigate("Circuits")}
+        title="Where to?"
+      />
+    </View>
+   
+  );
+}
+export default HomeScreen;

@@ -1,11 +1,10 @@
 {
   "expo": {
-    "name": "SideNav",
-    "slug": "SideNav",
+    "name": "moving-between-screens-|-react-navigation",
+    "slug": "snack-9c32a6b8-77ef-4ec7-967e-7565f58768ec",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
